@@ -1,0 +1,26 @@
+{
+  "name": "who-is-downloading",
+  "version": "1.0.0",
+  "description": "Monitor Game of Thrones downloaders",
+  "main": "index.js",
+  "dependencies": {
+    "bittorrent-dht": "^7.2.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "geoip-lite": "^1.1.8",
+    "json-server": "^0.8.17",
+    "jsonfile": "^2.3.1",
+    "magnet-uri": "^5.1.4",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ScriptSmith",
+  "license": "ISC",
+  "engines": {
+    "node": "6.2.0"
+  }
+}
