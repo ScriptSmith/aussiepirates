@@ -210,7 +210,7 @@ function initMap() {
 
   function checkDB(){
     console.log("Checking db")
-    $.getJSON("https://aussiepirates.herokuapp.com:3000/db", function( data ) {
+    $.getJSON("https://aussiepirates.herokuapp.com/db", function( data ) {
       db = data
       data = db.locations
 
